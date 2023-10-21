@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>看板ボルド</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>
-        <h1>hi</h1>
-    </div>
-    <div>
-        <h1>Hello world</h1>    
+    <div id="app">
+        <h1>看板ボルド</h1>
+        <div>
+            <input type="text" id="taskInput" placeholder="Enter a new task">
+            <select id="groupSelect">
+                <option value="default">Default</option>
+                <option value="work">Work</option>
+                <option value="personal">Personal</option>
+                <option value="study">Study</option>
+            </select>
+            <button id="addTask">Add Task</button>
+        </div>
+        <ul class="task-list" id="taskList">
+        </ul>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>

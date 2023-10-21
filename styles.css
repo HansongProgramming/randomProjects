@@ -1,7 +1,43 @@
-body{
-    display: flex;
-    flex-direction: row;
+body {
+    font-family: Arial, sans-serif;
 }
-div{
-    margin: 20%;
+
+#app {
+    max-width: 400px;
+    margin-left: 10px;
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 5px 0;
+    padding: 10px;
+}
+
+.task button {
+    background-color: #ffc3c3;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.task button:hover {
+    background-color: #ffb4b4;
+}
+
+select {
+    padding: 5px;
+}
+
+input{
+    height: 23px;
 }
