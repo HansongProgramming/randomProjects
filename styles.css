@@ -6,8 +6,6 @@ body {
     margin: 0 auto;
 }
 
-
-
 #app {
     max-width: 400px;
     margin-left: 10px;
@@ -40,10 +38,33 @@ body {
     background-color: #ffb4b4;
 }
 
-select {
-    padding: 5px;
+
+#InB{
+   position: absolute;
+   top: 70%;
 }
 
 input{
-    height: 23px;
+    height: 30px;
+    width: 300px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#myProgress {
+    width: 50%;
+    background-color: rgb(27, 26, 26);
+}
+  
+  #myBar {
+    width: 0%;
+    height: 5px;
+    background-color: rgb(255, 175, 206);
+  }
+
+#UserProgress{
+    width: 45%;
+    position: absolute;
+    top: 75%;
+    padding: 10px;
 }

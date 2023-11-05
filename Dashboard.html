@@ -6,27 +6,24 @@
     <title>看板ボルド</title>
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
     <div id="app">
         <h1>看板ボルド</h1>
         <hr>
-        <div>
+        <div id="InB">
             <input type="text" id="taskInput" placeholder="Enter a new task">
-            <select id="groupSelect">
-                <option value="default">Default</option>
-                <option value="work">Work</option>
-                <option value="personal">Personal</option>
-                <option value="study">Study</option>
-            </select>
             <button id="addTask">Add Task</button>
         </div>
         <ul class="task-list" id="taskList">
         </ul>
-        <script src="script.js"></script>
     </div>
-    <div>
-        <label for="progressBar">Augnina's Progression</label>
-        <progress id="progressBar" ></progress>
+    <div id="UserProgress">
+        <label for="myProgress">Progression:</label>
+        <div id="myProgress">
+            <div id="myBar"></div>
+          </div>
+        <script src="script.js"></script>
     </div>
 </body>
 </html>
