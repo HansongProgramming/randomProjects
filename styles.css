@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     width: 500px;
     height: 800px;
-    background-color: rgb(17, 17, 17);    
+    background-color: rgb(255, 255, 255);    
     margin: 0 auto;
 }
 
@@ -68,3 +68,4 @@ input{
     top: 75%;
     padding: 10px;
 }
+
