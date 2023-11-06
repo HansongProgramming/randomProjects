@@ -46,3 +46,4 @@ function updateProgress() {
         perc.innerHTML = "AUGNINA'S PROGRESS: 0%";
     }
 }
+

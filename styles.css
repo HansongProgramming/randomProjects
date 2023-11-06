@@ -15,7 +15,8 @@ body {
 }
 
 h1{
-    padding-top: 20px;
+    font-size: 40px;
+    padding: 0px;
     text-align: center;
     background: linear-gradient(180deg, #ff9d9d 30%, #0094FF 100%);
     background-clip: text;
@@ -95,3 +96,6 @@ label{
     margin-top: 70px;
 }
 
+#clock{
+    color: black;
+}
