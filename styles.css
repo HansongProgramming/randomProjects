@@ -3,22 +3,22 @@ body {
     width: 500px;
     height: 800px;
     background-color: rgb(233, 233, 233);    
+    display: flex;
+    flex-direction: row;
 }
 #productivityApp{
-    margin: 35px;
+    margin: 50px;
     background-color: white;
-    height: 100%;
-}
-
-#app {
-    max-width: 400px;
-    margin-left: 10px;
+    height: 835px;
+    width: 550px;
+    box-shadow: 13px 19px 14px 0px rgba(0, 0, 0, 0.08);
 }
 
 h1{
     padding-top: 20px;
     text-align: center;
-    background: -webkit-linear-gradient(rgb(255, 130, 151),rgb(75, 75, 235));
+    background: linear-gradient(180deg, #ff9d9d 30%, #0094FF 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -29,55 +29,69 @@ h1{
 }
 
 .task {
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid #ccc;
+    box-shadow: 2px 5px 14px 5px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
-    margin: 5px 0;
+    margin: 5px ;
     padding: 10px;
+    width: 92%;
+    font-size: 20px;
 }
 
 .task button {
-    background-color: #ffc3c3;
-    color: white;
+    background-color: white;
+    font-size: 20px;
     border: none;
     padding: 5px 10px;
     cursor: pointer;
 }
 
-.task button:hover {
-    background-color: #ffb4b4;
-}
-
-
-#InB{
-   position: absolute;
-   top: 70%;
-}
-
 input{
-    height: 30px;
-    width: 300px;
+    height: 40px;
+    width: 490px;
+    margin-left: 20px;
     border-radius: 20px;
     text-align: center;
+    font-size: 20px;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
 }
 
 #myProgress {
-    width: 40%;
-    background-color: rgb(27, 26, 26);
+    width: 90%;
+    border: 1px solid black;
 }
   
   #myBar {
     width: 0%;
-    height: 20px;
-    background-color: rgb(255, 175, 206);
+    height: 25px;
+    background-image: linear-gradient(90deg, #ff9d9d 10%, #0094FF 90%) ;
+    box-shadow: 8px 8px 5px 0px rgba(0, -1, 0, 0.25);
   }
 
 #UserProgress{
-    width: 45%;
-    position: absolute;
-    top: 75%;
+    width: 100%;
     padding: 10px;
+    margin-left: 15px;
+}
+
+.currentTasks{
+    width: 500px;
+    height: 530px;
+    background-color: #ebebeb;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    overflow-y: scroll;
+}
+
+label{
+    font-size: 20px;
+}
+
+.music{
+    width: 550px;
+    margin-top: 70px;
 }
 

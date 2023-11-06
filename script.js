@@ -7,38 +7,42 @@ const perc = document.getElementById('percentage');
 let completedTasks = 0;
 let totalTasks = 0;
 
-addTaskButton.addEventListener('click', () => {
-    const taskText = taskInput.value;
-    totalTasks++;
-    updateProgress();
+function checkEnter(e){
+    var keyCode = (e.keyCode? e.keyCode : e.which);
+    if (keyCode === 13){
 
-    if (taskText.trim() !== '') {
-        const task = document.createElement('li');
-        task.className = 'task';
-        task.innerHTML = `
-            <span>${taskText}</span>
-            <button>Finish</button>
-        `;
-
-        task.querySelector('button').addEventListener('click', () => {
-            task.remove();
-            completedTasks++;
-            updateProgress();
-        });
-
-        taskList.appendChild(task);
-        taskInput.value = '';
-        groupSelect.value = 'default';
+        const taskText = taskInput.value;
+        totalTasks++;
+        updateProgress();
+    
+        if (taskText.trim() !== ' ') {
+            const task = document.createElement('li');
+            task.className = 'task';
+            task.innerHTML = `
+                <span>${taskText}</span>
+                <button>✔️</button>
+            `;
+    
+            task.querySelector('button').addEventListener('click', () => {
+                task.remove();
+                completedTasks++;
+                updateProgress();
+            });
+    
+            taskList.appendChild(task);
+            taskInput.value = '';
+            groupSelect.value = 'default';
+        }
     }
-});
+}
 
 function updateProgress() {
     if (totalTasks > 0) {
         const percentage = (completedTasks / totalTasks) * 100;
         progressBar.style.width = percentage + '%';
-        perc.innerHTML = "Augnina's Progression: " + percentage + '%' ;
+        perc.innerHTML = "AUGNINA'S PROGRESS: " + Math.round(percentage) + '%' ;
     } else {
         progressBar.style.width = '0%';
-        perc.innerHTML = "Augnina's Progression: 0%";
+        perc.innerHTML = "AUGNINA'S PROGRESS: 0%";
     }
 }
