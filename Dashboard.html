@@ -8,22 +8,24 @@
 </head>
 
 <body>
-    <div id="app">
-        <h1>看板ボルド</h1>
-        <hr>
-        <div id="InB">
-            <input type="text" id="taskInput" placeholder="Enter a new task">
-            <button id="addTask">Add Task</button>
+    <div id="productivityApp">
+        <div id="app">
+            <h1 style="text-align: center;">看板ボルド</h1>
+            <hr>
+            <div id="InB">
+                <input type="text" id="taskInput" placeholder="Enter a new task">
+                <button id="addTask">Add Task</button>
+            </div>
+            <ul class="task-list" id="taskList">
+            </ul>
+            <div id="UserProgress">
+                <label for="myProgress" id="percentage">Augnina's Progression: 0%</label>
+                <div id="myProgress">
+                    <div id="myBar"></div>
+                  </div>
+                <script src="script.js"></script>
+            </div>  
         </div>
-        <ul class="task-list" id="taskList">
-        </ul>
-    </div>
-    <div id="UserProgress">
-        <label for="myProgress" id="percentage">Augnina's Progression: 0%</label>
-        <div id="myProgress">
-            <div id="myBar"></div>
-          </div>
-        <script src="script.js"></script>
     </div>
 </body>
 </html>

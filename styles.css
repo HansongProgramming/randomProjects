@@ -2,13 +2,25 @@ body {
     font-family: Arial, sans-serif;
     width: 500px;
     height: 800px;
-    background-color: rgb(255, 255, 255);    
-    margin: 0 auto;
+    background-color: rgb(233, 233, 233);    
+}
+#productivityApp{
+    margin: 35px;
+    background-color: white;
+    height: 100%;
 }
 
 #app {
     max-width: 400px;
     margin-left: 10px;
+}
+
+h1{
+    padding-top: 20px;
+    text-align: center;
+    background: -webkit-linear-gradient(rgb(255, 130, 151),rgb(75, 75, 235));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .task-list {
@@ -52,13 +64,13 @@ input{
 }
 
 #myProgress {
-    width: 50%;
+    width: 40%;
     background-color: rgb(27, 26, 26);
 }
   
   #myBar {
     width: 0%;
-    height: 5px;
+    height: 20px;
     background-color: rgb(255, 175, 206);
   }
 
