@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    width: 500px;
+    width: 1920px;
     height: 800px;
     background-color: rgb(233, 233, 233);    
     display: flex;
@@ -97,5 +97,21 @@ label{
 }
 
 #clock{
-    color: black;
+    font-size: 150px;
+    background: linear-gradient(180deg, #ff9d9d 30%, #0094FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+#side-notes{ 
+    margin-top: 50px;
+    background-color: white;
+    height: 550px;
+    width: 900px;
+}
+
+.side-util{
+
 }

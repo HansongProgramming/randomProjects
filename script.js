@@ -6,16 +6,39 @@ const perc = document.getElementById('percentage');
 
 let completedTasks = 0;
 let totalTasks = 0;
-
+function currentTime() {
+    let date = new Date(); 
+    let hh = date.getHours();
+    let mm = date.getMinutes();
+    let ss = date.getSeconds();
+    let session = "AM";
+  
+      
+    if(hh > 12){
+        session = "PM";
+     }
+  
+     hh = (hh < 10) ? "0" + hh : hh;
+     mm = (mm < 10) ? "0" + mm : mm;
+     ss = (ss < 10) ? "0" + ss : ss;
+      
+     let time = hh + ":" + mm + ":" + ss + " " + session;
+  
+    document.getElementById("clock").innerText = time; 
+    let t = setTimeout(function(){ currentTime() }, 1000); 
+  
+  }
+  
+  currentTime();
+  
 function checkEnter(e){
     var keyCode = (e.keyCode? e.keyCode : e.which);
     if (keyCode === 13){
-
         const taskText = taskInput.value;
-        totalTasks++;
         updateProgress();
     
-        if (taskText.trim() !== ' ') {
+        if (taskText.trim() != '') {
+            totalTasks++;
             const task = document.createElement('li');
             task.className = 'task';
             task.innerHTML = `
@@ -32,6 +55,8 @@ function checkEnter(e){
             taskList.appendChild(task);
             taskInput.value = '';
             groupSelect.value = 'default';
+        } else{
+            alert("You need to type a task");
         }
     }
 }
