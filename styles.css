@@ -1,7 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-    width: 1920px;
-    height: 800px;
     background-color: rgb(233, 233, 233);    
     display: flex;
     flex-direction: row;
@@ -50,7 +48,7 @@ h1{
     cursor: pointer;
 }
 
-input{
+#taskInput{
     height: 40px;
     width: 490px;
     margin-left: 20px;
@@ -70,6 +68,7 @@ input{
     height: 25px;
     background-image: linear-gradient(90deg, #ff9d9d 10%, #0094FF 90%) ;
     box-shadow: 8px 8px 5px 0px rgba(0, -1, 0, 0.25);
+    transition: 1.11s;
   }
 
 #UserProgress{
@@ -97,7 +96,7 @@ label{
 }
 
 #clock{
-    font-size: 150px;
+    font-size: 138px;
     background: linear-gradient(180deg, #ff9d9d 30%, #0094FF 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -110,8 +109,15 @@ label{
     background-color: white;
     height: 550px;
     width: 900px;
+    overflow-y: scroll;
 }
 
-.side-util{
 
+#notpad{
+    margin-left: 20px;
+    width: 95%;
+    height: 75%;
+    border: none;
+    background-color: #ebebeb;
+    font-size: 25px;
 }

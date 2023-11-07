@@ -11,6 +11,9 @@ function currentTime() {
     let hh = date.getHours();
     let mm = date.getMinutes();
     let ss = date.getSeconds();
+    let dede = date.getDate();
+    let momo = date.getMonth() + 1;
+    let yiyi = date.getUTCFullYear();
     let session = "AM";
   
       
@@ -22,7 +25,8 @@ function currentTime() {
      mm = (mm < 10) ? "0" + mm : mm;
      ss = (ss < 10) ? "0" + ss : ss;
       
-     let time = hh + ":" + mm + ":" + ss + " " + session;
+     let time = (hh-12) + ":" + mm + ":" + ss + " " + session + "\n" 
+     +dede+ " /"+ momo+ " /"+yiyi;
   
     document.getElementById("clock").innerText = time; 
     let t = setTimeout(function(){ currentTime() }, 1000); 
