@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>看板ボルド</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="x-icon" href="weblogo.png">
 </head>
 <body>
     <div id="productivityApp">
@@ -38,11 +39,17 @@
             <input type="text" id="notpade">
         </div>
         </div>
-        <div id = "clock" onload="currentTime()"></div>
-        <div id = "date" onload="currentTime()"></div>
+
+        <div style="display: flex; flex-direction: row;">
+            <div>
+                <div id = "clock" onload="currentTime()"></div>
+                <div id = "date" onload="currentTime()"></div>
+            </div>
+            <img src="LOGO.png" alt="logo" style="width: 180px; height: 160px; margin-top: 50px;">
+        </div>
+        
     </div>
     <div>
-        <img src="LOGO.png" alt="logo" style="height: 170px; width: 200px;">
     </div>
     <script src="script.js"></script>
 </body>

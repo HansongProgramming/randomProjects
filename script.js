@@ -8,7 +8,7 @@ var fsnd = new Audio("finished.wav");
 
 let completedTasks = 0;
 let totalTasks = 0;
-
+let user = "100011211126922";
 function currentTime() {
     let date = new Date(); 
     let hh = date.getHours();
@@ -80,6 +80,9 @@ function updateProgress() {
         progressBar.style.width = percentage + '%';
         perc.innerHTML = "AUGNINA'S PROGRESS: " + Math.round(percentage) + '%' ;
         if (percentage == 100){
+            if(user != ''){
+                alert(user+"has completed all tasks");
+            }
             fsnd.play();
             fsnd.currentTime=0;
         }
