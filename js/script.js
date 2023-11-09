@@ -3,12 +3,16 @@ const addTaskButton = document.getElementById('addTask');
 const taskList = document.getElementById('taskList');
 const progressBar = document.getElementById('myBar');
 const perc = document.getElementById('percentage'); 
-var snd = new Audio("completeTask.wav");
-var fsnd = new Audio("finished.wav");
-
+var snd = new Audio("sfx/completeTask.wav");
+var fsnd = new Audio("sfx/finished.wav");
 let completedTasks = 0;
 let totalTasks = 0;
 let user = "100011211126922";
+
+
+document.getElementById("notpad").innerHTML +="noteapp.html";
+
+
 function currentTime() {
     let date = new Date(); 
     let hh = date.getHours();
