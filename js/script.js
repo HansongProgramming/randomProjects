@@ -10,9 +10,6 @@ let totalTasks = 0;
 let user = "100011211126922";
 
 
-document.getElementById("notpad").innerHTML +="noteapp.html";
-
-
 function currentTime() {
     let date = new Date(); 
     let hh = date.getHours();
