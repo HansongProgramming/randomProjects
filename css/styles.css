@@ -146,3 +146,13 @@ label{
     font-size: 25px;
 }
 
+#canvas {
+    /* border: 1px solid black;  */
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+   
+   .stroke-color {
+     border-radius: 50%;
+     width: 30px;
+     height: 30px;
+   }

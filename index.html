@@ -10,7 +10,9 @@
     <script>
         $(function() {
             $("#includeHtml").load("noteapp.html");
+            $("#includeDraw").load("drawpad.html");
         });
+
     </script>
 </head>
 <body>
@@ -43,7 +45,7 @@
         </div>
             <div id="includeHtml"></div>
         </div>
-        <div style="display: flex; flex-direction: row;">
+            <div style="display: flex; flex-direction: row;">
             <div>
                 <div id = "clock" onload="currentTime()"></div>
                 <div id = "date" onload="currentTime()"></div>
