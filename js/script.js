@@ -166,6 +166,9 @@ window.addEventListener('keydown', function(event){
   if(event.ctrlKey && event.key === 'z'){
     Restore();
   }
+  if(event.key === 'e'){
+    Clear();
+  }
 });
 
 function Restore() {
