@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T12:20:50.617Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="BHkiGXa-HkpLsJcMOyWP" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T12:29:49.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="rZEtT7KMSMCfdj1OKVac" version="24.5.3" type="github">
   <diagram name="Page-1" id="aL-JDZuz1ci5aaFKHha2">
-    <mxGraphModel dx="448" dy="448" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="956" dy="576" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -569,8 +569,8 @@
         <mxCell id="fngXT9jK4NcwK-JuSyqX-47" value="captureCamera()&lt;div&gt;captureAudio()&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="496" y="1595" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="fngXT9jK4NcwK-JuSyqX-49" value="VideoCapture&lt;div&gt;AudioCapture&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="498" y="1632" width="87" height="30" as="geometry" />
+        <mxCell id="fngXT9jK4NcwK-JuSyqX-49" value="VideoCapture&lt;div&gt;AudioCapture&lt;/div&gt;&lt;div&gt;cctvNumber&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="496" y="1639" width="87" height="30" as="geometry" />
         </mxCell>
         <mxCell id="fngXT9jK4NcwK-JuSyqX-50" value="detectGesture(True)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="649" y="1684" width="60" height="30" as="geometry" />
@@ -583,6 +583,15 @@
         </mxCell>
         <mxCell id="fngXT9jK4NcwK-JuSyqX-53" value="gestureFound()" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="498" y="1714" width="87" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fngXT9jK4NcwK-JuSyqX-54" value="gesture" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1625" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fngXT9jK4NcwK-JuSyqX-56" value="waitForNewInput()" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="1684" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fngXT9jK4NcwK-JuSyqX-57" value="composeAlert()" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="809" y="1720.5" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
