@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T12:29:49.601Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="rZEtT7KMSMCfdj1OKVac" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T12:33:44.294Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="FdnLSJrC479BcUEVXoZ3" version="24.5.3" type="github">
   <diagram name="Page-1" id="aL-JDZuz1ci5aaFKHha2">
-    <mxGraphModel dx="956" dy="576" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="399" dy="253" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -592,6 +592,9 @@
         </mxCell>
         <mxCell id="fngXT9jK4NcwK-JuSyqX-57" value="composeAlert()" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="809" y="1720.5" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fngXT9jK4NcwK-JuSyqX-58" value="triggerType&lt;div&gt;triggerMessage&lt;/div&gt;&lt;div&gt;cctvNumber&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="809" y="1763" width="88" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
