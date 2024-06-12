@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T13:15:52.527Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="YR5Q9oA9nFbMFEZYtEQm" version="24.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T13:29:27.942Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="QOt-F8ZctIbIlqztzarW" version="24.5.3" type="github">
   <diagram name="Page-1" id="aL-JDZuz1ci5aaFKHha2">
-    <mxGraphModel dx="3597" dy="1750" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1962" dy="955" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -628,6 +628,17 @@
         </mxCell>
         <mxCell id="fngXT9jK4NcwK-JuSyqX-80" value="alert" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1303.63" y="1849.88" width="127.37" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fngXT9jK4NcwK-JuSyqX-81" value="Media&amp;nbsp; Inputs" style="shape=folder;fontStyle=1;tabWidth=115;tabHeight=25;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="1273" width="225" height="175" as="geometry" />
+        </mxCell>
+        <mxCell id="fngXT9jK4NcwK-JuSyqX-82" value="CaptureVideo()" style="html=1;whiteSpace=wrap;" vertex="1" parent="fngXT9jK4NcwK-JuSyqX-81">
+          <mxGeometry width="88" height="55" relative="1" as="geometry">
+            <mxPoint x="16" y="43" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fngXT9jK4NcwK-JuSyqX-88" value="CaptureAudio()" style="html=1;whiteSpace=wrap;" vertex="1" parent="fngXT9jK4NcwK-JuSyqX-81">
+          <mxGeometry x="16" y="102" width="88" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
