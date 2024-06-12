@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-06-12T05:10:35.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="usOOoKAc3nuUR1R13Eiv" version="24.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-12T06:01:39.153Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="mKSja73dLn4-_mJCc5HP" version="24.5.2" type="github">
   <diagram name="Page-1" id="aL-JDZuz1ci5aaFKHha2">
-    <mxGraphModel dx="2876" dy="1724" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3491" dy="2040" grid="1" gridSize="11" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -319,6 +319,33 @@
         </mxCell>
         <mxCell id="BThqMrL_MY4lzb3ycv1S-60" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="2211" y="405" width="44" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BThqMrL_MY4lzb3ycv1S-61" value="&lt;div&gt;Authorities&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1111" width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BThqMrL_MY4lzb3ycv1S-62" value="Citizen&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1386" width="80" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BThqMrL_MY4lzb3ycv1S-65" value="CaptureVideo()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1386" width="108" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="BThqMrL_MY4lzb3ycv1S-67" value="CaptureAudio()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="1430" width="108" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="BThqMrL_MY4lzb3ycv1S-68" value="RecognizeGesture()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="556" y="1430" width="126" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="BThqMrL_MY4lzb3ycv1S-69" value="RecognizeAudio()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="556" y="1386" width="126" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="BThqMrL_MY4lzb3ycv1S-70" value="TriggerAlert()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="715" y="1430" width="126" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="BThqMrL_MY4lzb3ycv1S-71" value="SendAlertNotification()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="869" y="1430" width="144" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="BThqMrL_MY4lzb3ycv1S-72" value="SendAlertNotification()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1045" y="1430" width="144" height="33" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
